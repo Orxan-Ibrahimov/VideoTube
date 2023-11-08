@@ -134,4 +134,51 @@ img {
 .small-sidebar hr {
   width: 50%;
   margin-bottom: 25px;
+}
+
+.container {
+  background-color: #f9f9f9;
+  padding: 20px 2% 20px 17%;
+}
+.container > .banner {
+  width: 100%;
+}
+.container > .banner > img {
+  width: 100%;
+  border-radius: 8px;
+}
+.container > .list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 16px;
+  grid-row-gap: 30px;
+  margin-top: 15px;
+}
+.container > .list-container > .vid-list > img.thumbnail {
+  width: 100%;
+  border-radius: 5%;
+}
+.container > .list-container > .vid-list > .vid-body {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 7px;
+}
+.container > .list-container > .vid-list > .vid-body > img {
+  width: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.container > .list-container > .vid-list > .vid-body > .vid-info {
+  color: #5a5a5a;
+  font-size: 13px;
+}
+.container > .list-container > .vid-list > .vid-body > .vid-info > a {
+  color: #000;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.large-container {
+  padding-left: 7%;
 }/*# sourceMappingURL=style.css.map */
